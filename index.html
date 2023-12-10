@@ -15,21 +15,31 @@
   <body>
     <div class="container" id="container">
       <div class="searchbar-container">
-        <input type="text" id="searchbar" placeholder="Search city" />
+        <form action="#" id="form">
+          <input type="text" id="searchbar" placeholder="Search city" />
+          <input type="submit" id="submit" value="Search" az />
+        </form>
       </div>
+      <div class="message-container" id="message-container"></div>
       <div class="curr-weather-container" id="curr-weather-container">
-        <h1>CHIHUAHUA</h1>
+        <h1 id="city"></h1>
         <div class="moon-sun" id="moon-sun"></div>
-        <h1>23°C</h1>
-        <div class="future-weather-container" id="future-weather-container">
-          <div class="weather-max-min">
-            <h2>12°</h2>
-            <h2>32°</h2>
+        <h1 id="grades"></h1>
+        <div class="container-min-max">
+          <div class="max-min-weather-container" id="future-weather-container">
+            <h2 id="weather-min"></h2>
+            <div class="moon-sun-min" id="moon-sun-min"></div>
+            <h3 id="weather-day">Min</h3>
           </div>
-          <div class="moon-sun-future" id="moon-sun"></div>
-          <h3>Monday</h3>
+          <div class="max-min-weather-container" id="future-weather-container">
+            <h2 id="weather-max"></h2>
+            <div class="moon-sun-max" id="moon-sun-max"></div>
+            <h3 id="weather-day">Max</h3>
+          </div>
         </div>
       </div>
     </div>
+    <script src="js/app.js"></script>
+    <script src="js/animations.js"></script>
   </body>
 </html>
