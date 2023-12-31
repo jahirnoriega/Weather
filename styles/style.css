@@ -178,7 +178,7 @@ input::placeholder {
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 50%;
-  height: 7rem;
+  height: 4rem;
 }
 .link-header {
   border-radius: 1rem;
@@ -194,11 +194,11 @@ input::placeholder {
   font-family: "Noto Sans", sans-serif;
   color: white;
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .nav-bar img {
-  width: 3rem;
+  width: 2rem;
   height: 100%;
 }
 .menu {
